@@ -1,0 +1,26 @@
+---
+import Footer from '../components/Footer.svelte';
+import Header from '../components/Header.svelte';
+import Welcome from "../components/Welcome.svelte";
+const { title } = Astro.props;
+import { Image } from '@astrojs/image/components'
+import logoImage from '../assets/icons/logo.svg'
+---
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="/src/assets/fonts/EuclidCircularA/stylesheet.css" rel="stylesheet">
+        <link href="/src/assets/fonts/CyGrotesk/stylesheet.css" rel="stylesheet">
+        <link href="/src/styles/style.css" rel="stylesheet">
+        <title>Simbios</title>
+        <meta name="description" content="Digital company Simbios site">
+    </head>
+    <body class="bg-black text-white">
+        <Header>
+            <Image class="my-auto col-span-2" src={logoImage} alt="Simbios"/>
+        </Header>
+        <Welcome />
+        <Footer />
+    </body>
+</html>

@@ -1,0 +1,10 @@
+.container-custom {
+    max-width: 1368px;
+    margin: 0 auto;
+}
+.font-euclid {
+    font-family: "Euclid Circular A";
+}
+.font-grotesk {
+    font-family: "Cy Grotesk";
+}

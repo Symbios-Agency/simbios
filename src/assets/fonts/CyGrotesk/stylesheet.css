@@ -1,0 +1,39 @@
+@font-face {
+    font-family: 'Cy Grotesk';
+    src: local('Cy Grotesk Bold'), local('CyGroteskBold'),
+    url('CyGroteskBold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Cy Grotesk';
+    src: local('Cy Grotesk Light'), local('CyGroteskLight'),
+    url('CyGroteskLight.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Cy Grotesk';
+    src: local('Cy Grotesk Regular'), local('CyGroteskRegular'),
+    url('CyGroteskRegular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Cy Grotesk';
+    src: local('Cy Grotesk Demi'), local('CyGroteskDemi'),
+    url('CyGroteskDemi.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Cy Grotesk';
+    src: local('Cy Grotesk Medium'), local('CyGroteskMedium'),
+    url('CyGroteskMedium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
