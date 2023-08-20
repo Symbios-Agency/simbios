@@ -1,7 +1,7 @@
 @font-face {
     font-family: 'Cy Grotesk';
     src: local('Cy Grotesk Bold'), local('CyGroteskBold'),
-    url('CyGroteskBold.ttf') format('truetype');
+    url('CyGroteskBold.otf') format('truetype');
     font-weight: bold;
     font-style: normal;
 }

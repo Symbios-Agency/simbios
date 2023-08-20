@@ -2,9 +2,14 @@
 import Footer from '../components/Footer.svelte';
 import Header from '../components/Header.svelte';
 import Welcome from "../components/Welcome.svelte";
+import Services from "../components/Services.svelte";
+import Cases from "../components/Cases.svelte";
 const { title } = Astro.props;
-import { Image } from '@astrojs/image/components'
-import logoImage from '../assets/icons/logo.svg'
+import { Image } from '@astrojs/image/components';
+import logoImage from '../assets/icons/logo.svg';
+import arrowImage from '../assets/icons/arrow.svg';
+import plusImage from '../assets/icons/plus.svg';
+import arrowUpImage from '../assets/icons/arrow-up.svg';
 ---
 <html lang="en">
     <head>
@@ -20,7 +25,15 @@ import logoImage from '../assets/icons/logo.svg'
         <Header>
             <Image class="my-auto col-span-2" src={logoImage} alt="Simbios"/>
         </Header>
-        <Welcome />
+        <Welcome>
+            <Image slot="arrow" src={arrowImage} alt=">" />
+        </Welcome>
+        <Services>
+            <Image class="my-auto h-full" src={plusImage} alt="+" />
+        </Services>
+        <Cases>
+            <Image slot="arrow" src={arrowUpImage} alt=">" />
+        </Cases>
         <Footer />
     </body>
 </html>

@@ -8,3 +8,10 @@
 .font-grotesk {
     font-family: "Cy Grotesk";
 }
+.text-stroke {
+    -webkit-text-stroke: 1px white;
+}
+ul.services li {
+    border-bottom: 1px solid #27282B;
+    height: 80px;
+}
